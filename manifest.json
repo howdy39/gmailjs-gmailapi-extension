@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "Gmail.js",
+  "version": "0.2",
+  "description": "gmail.js And Gmail API Chrome Extension",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "js/lib/jquery-1.10.2.min.js",
+    "js/lib/gmail.js",
+    "js/main.js"
+  ],
+  "permissions": [
+      "background",
+      "identity",
+      "notifications",
+      "storage",
+      "alarms",
+      "https://www.googleapis.com/*",
+      "https://*.googleusercontent.com/*"
+  ],
+  "background": {
+      "scripts": [
+          "js/background.js"
+      ],
+      "persistent": false
+  },
+  "browser_action": {
+      "default_icon": {
+          "19": "img/gmail-logo.png",
+          "38": "img/gmail-logo.png"
+      },
+      "default_title": "Click to Sign in with Google"
+  },
+  "oauth2": {
+      "client_id": "217093634490-vdgf4kf7r3sg0uvbk2ehpq7732mb8jeb.apps.googleusercontent.com",
+      "scopes": [
+          "profile",
+          "https://www.googleapis.com/auth/gmail.readonly"
+      ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoe6uxbjvLCJPgFqURudRewjRvDv66VR2pvXFojEQ1uWM1b5s1/VyFhl0XhQNWOR+P9vZ7KsyOxDEG1Tbra843lqMs1PnbdMM4dRtJLFlN7rDSknKZoz8rkY81Joy2wz6TvHsC7hg/CkzX4Bw6GBrIK0/wfItTDEDPxQTHkRiw6m3jbDmDzxelOZPWUUz5wj3lglh/oCT1BU5vz0ila9FE4zhOiwkB/SD/7pFBxmIPezNiTCQS7BGpO6fIrsGSR/winauBJCZtpoAr4VPVEfmjxNLgNCj4yENeTO0/n7xXCZ4t9FMGNYMwMGdL+VDIvU+cfVTGq1P88GyGwEyboQkJQIDAQAB"
+}
