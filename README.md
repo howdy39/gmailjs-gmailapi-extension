@@ -9,4 +9,4 @@
 
 [chrome://identity-internals](chrome://identity-internals)
 
-[https://github.com/mcplusa/gmail-to-salesforce](https://github.com/mcplusa/gmail-to-salesforce)
+[https://github.com/mcplusa/gmail-to-salesforce](https://github.com/mcplusa/gmail-to-salesforce)
