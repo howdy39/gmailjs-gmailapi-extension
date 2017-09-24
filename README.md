@@ -1,14 +1,10 @@
-# Gmail.js Chrome Extension
+# Chrome Extension With Gmail.js And Gmail API
 
-Hello world chrome extension using gmail.js
+## References
+[https://github.com/KartikTalwar/gmail.js/tree/master](https://github.com/KartikTalwar/gmail.js/tree/master)
+[https://github.com/GoogleDeveloperExperts/chrome-extension-google-apis](https://github.com/GoogleDeveloperExperts/chrome-extension-google-apis)
 
-This is a sample chome extension that uses gmail.js to build apps on top of Gmail.
+[https://developer.chrome.com/apps/app_identity](https://developer.chrome.com/apps/app_identity)
 
-The manifest in this repo bypasses the new Content Security Policy (CSP) enforced by Gmail.
-
-### Please use the latest `gmail.js` file from the original repo linked below
-
-**http://github.com/kartiktalwar/gmail.js**
-
-
+[chrome://identity-internals](chrome://identity-internals)
 
