@@ -2,9 +2,11 @@
 
 ## References
 [https://github.com/KartikTalwar/gmail.js/tree/master](https://github.com/KartikTalwar/gmail.js/tree/master)
+
 [https://github.com/GoogleDeveloperExperts/chrome-extension-google-apis](https://github.com/GoogleDeveloperExperts/chrome-extension-google-apis)
 
 [https://developer.chrome.com/apps/app_identity](https://developer.chrome.com/apps/app_identity)
 
 [chrome://identity-internals](chrome://identity-internals)
 
+[https://github.com/mcplusa/gmail-to-salesforce](https://github.com/mcplusa/gmail-to-salesforce)
